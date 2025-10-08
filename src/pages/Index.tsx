@@ -10,7 +10,7 @@ import ProjectCard from "@/components/ProjectCard";
 const Index = () => {
   const mainSchedules = [
     {
-      title: "Culto Dominical",
+      title: "Culto de Domingo",
       day: "Domingo",
       time: "19h",
       description: "Nosso principal culto semanal. Venha louvar e ouvir a Palavra!",
@@ -42,7 +42,7 @@ const Index = () => {
     {
       title: "Ramal Arthur Virgílio",
       description:
-        "Ponto de pregação no interior, localizado no sítio da igreja. Levando a mensagem do Evangelho além da cidade.",
+        "Ponto de pregação na BR-174 onde está localizado no sítio da igreja. Levando a mensagem do Evangelho além da cidade.",
       icon: <MapPin size={24} />,
     },
     {
@@ -68,7 +68,7 @@ const Index = () => {
               Participe dos Nossos Cultos
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Venha fazer parte da nossa comunidade. Todos são bem-vindos!
+              Venha fazer parte de nossa igreja!
             </p>
           </div>
 
@@ -94,7 +94,7 @@ const Index = () => {
               Nossos Projetos
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Conheça as iniciativas que transformam vidas e expandem o Reino
+              Conheça os projetos para levar a palavra de Deus a quem necessita
             </p>
           </div>
 

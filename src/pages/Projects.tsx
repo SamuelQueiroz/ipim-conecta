@@ -104,8 +104,7 @@ const Projects = () => {
                     </div>
                     <div className="mt-6 p-4 border-2 border-dashed border-border rounded-lg bg-muted/20">
                       <p className="text-muted-foreground italic text-center">
-                        [Espaço para adicionar fotos, horários específicos e mais
-                        detalhes sobre as atividades]
+                        <img src="src/assets/ramal1.jpeg" alt="" />
                       </p>
                     </div>
                   </div>

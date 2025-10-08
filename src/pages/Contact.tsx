@@ -156,20 +156,20 @@ const Contact = () => {
                       </div>
                     </div>
 
-                    <div className="flex items-start gap-3">
+                    {/* <div className="flex items-start gap-3">
                       <Phone className="flex-shrink-0 mt-1 text-secondary" size={24} />
                       <div>
                         <h3 className="font-semibold mb-1">Telefone</h3>
                         <p className="text-muted-foreground">(92) 3000-0000</p>
                       </div>
-                    </div>
+                    </div> */}
 
                     <div className="flex items-start gap-3">
                       <Mail className="flex-shrink-0 mt-1 text-secondary" size={24} />
                       <div>
                         <h3 className="font-semibold mb-1">E-mail</h3>
                         <p className="text-muted-foreground">
-                          contato@ipimanaus.org.br
+                          segundaipimidia@gmail.com
                         </p>
                       </div>
                     </div>
@@ -178,7 +178,7 @@ const Contact = () => {
               </Card>
 
               {/* WhatsApp CTA */}
-              <Card className="bg-secondary text-secondary-foreground">
+              {/* <Card className="bg-secondary text-secondary-foreground">
                 <CardContent className="p-8">
                   <div className="flex items-center gap-4 mb-4">
                     <MessageCircle size={32} />
@@ -204,7 +204,7 @@ const Contact = () => {
                     </a>
                   </Button>
                 </CardContent>
-              </Card>
+              </Card> */}
 
               {/* Social Media */}
               <Card>
@@ -214,7 +214,7 @@ const Contact = () => {
                     Acompanhe nossas atividades e fique por dentro das novidades:
                   </p>
                   <div className="flex flex-col gap-3">
-                    <Button
+                    {/* <Button
                       asChild
                       variant="outline"
                       className="justify-start"
@@ -229,7 +229,7 @@ const Contact = () => {
                         <Facebook size={20} />
                         Facebook
                       </a>
-                    </Button>
+                    </Button> */}
                     <Button
                       asChild
                       variant="outline"
@@ -237,7 +237,7 @@ const Contact = () => {
                       size="lg"
                     >
                       <a
-                        href="https://instagram.com"
+                        href="https://www.instagram.com/2ipimanaus/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-3"
@@ -253,7 +253,7 @@ const Contact = () => {
                       size="lg"
                     >
                       <a
-                        href="https://youtube.com"
+                        href="https://www.youtube.com/@2ipimanaus"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-3"
