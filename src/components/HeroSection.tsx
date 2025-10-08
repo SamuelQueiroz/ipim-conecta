@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "./ui/button";
 import { Link } from "react-router-dom";
-import churchExterior from "@/assets/church-exterior.jpg";
-import communityGathering from "@/assets/community-gathering.jpg";
-import worshipService from "@/assets/worship-service.jpg";
+import churchExterior from "@/assets/igreja1.jpeg";
+import communityGathering from "@/assets/igreja2.jpg";
+import worshipService from "@/assets/igreja5.jpg";
 
 const HeroSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -12,18 +12,18 @@ const HeroSection = () => {
   const slides = [
     {
       image: churchExterior,
-      title: "Bem-vindo à IPI Manaus",
-      subtitle: "Uma comunidade de fé, amor e esperança desde 1983",
+      title: "Bem-vindo à 2ª Igreja Presbiteriana Independente",
+      subtitle: "Uma igreja segundo o coração de Deus, desde 1983",
     },
     {
       image: communityGathering,
-      title: "Faça Parte da Nossa Família",
-      subtitle: "Venha compartilhar momentos especiais conosco",
+      title: "Faça Parte de nossa Igreja",
+      subtitle: "Venha crescer na fé conosco",
     },
     {
       image: worshipService,
-      title: "Cultue com a Gente",
-      subtitle: "Domingos às 19h - Você é sempre bem-vindo!",
+      title: "Faça-nos uma visita",
+      subtitle: "Visite um de nossos cultos - Você é sempre bem-vindo!",
     },
   ];
 
