@@ -1,8 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import ProjectCard from "@/components/ProjectCard";
 import { Card, CardContent } from "@/components/ui/card";
 import { Users, MapPin, Calendar, BookOpen } from "lucide-react";
+import ramal from "@/assets/ramal1.jpeg"
 
 const Projects = () => {
   return (
@@ -43,8 +43,7 @@ const Projects = () => {
                       </span>
                     </div>
                     <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                      Cultos realizados nas casas dos membros, promovendo comunhão mais
-                      íntima e crescimento espiritual através do estudo da Palavra em
+                      Cultos realizados nas casas dos membros, promovendo o crescimento espiritual através do estudo da Palavra em
                       pequenos grupos.
                     </p>
                     <div className="bg-muted/50 p-6 rounded-lg">
@@ -104,7 +103,7 @@ const Projects = () => {
                     </div>
                     <div className="mt-6 p-4 border-2 border-dashed border-border rounded-lg bg-muted/20">
                       <p className="text-muted-foreground italic text-center">
-                        <img src="src/assets/ramal1.jpeg" alt="" />
+                        <img src={ramal} alt="" />
                       </p>
                     </div>
                   </div>
