@@ -1,7 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import { Users, Heart, BookOpen } from "lucide-react";
+import { Users, Heart, BookOpen, Earth } from "lucide-react";
+import conselho from "@/assets/conselho.jpg";
 
 const About = () => {
   return (
@@ -64,7 +65,7 @@ const About = () => {
                         Membros do Conselho:
                       </h3>
                       <p className="text-muted-foreground italic">
-                        [Espaço reservado para lista dos membros do conselho e foto]
+                        <img src={conselho} alt="" />
                       </p>
                     </div>
                   </div>
@@ -78,14 +79,14 @@ const About = () => {
                 <CardContent className="p-8">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="p-2 bg-secondary/10 rounded-lg text-secondary">
-                      <Heart size={24} />
+                      <Earth size={24} />
                     </div>
                     <h2 className="text-2xl font-bold">Nossa Visão</h2>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
                     Ser uma igreja que glorifica a Deus através da adoração, do ensino da
-                    Palavra, da comunhão cristã e do serviço ao próximo, alcançando Manaus
-                    e além com o evangelho de Jesus Cristo.
+                    Palavra, da comunhão cristã e do serviço ao próximo, alcançando ao próximo
+                     com o evangelho de Jesus Cristo.
                   </p>
                 </CardContent>
               </Card>
@@ -94,21 +95,21 @@ const About = () => {
                 <CardContent className="p-8">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="p-2 bg-secondary/10 rounded-lg text-secondary">
-                      <BookOpen size={24} />
+                      <Heart size={24} />
                     </div>
                     <h2 className="text-2xl font-bold">Nossa Missão</h2>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
                     Fazer discípulos de Cristo através da pregação fiel das Escrituras,
                     do cuidado pastoral, da comunhão fraternal e do testemunho do amor de
-                    Deus em nossa comunidade.
+                    Deus em nossas vidas.
                   </p>
                 </CardContent>
               </Card>
             </div>
 
             {/* Expandable History Section */}
-            <Card className="mt-12">
+            {/* <Card className="mt-12">
               <CardContent className="p-8">
                 <h2 className="text-2xl font-bold mb-4">
                   Saiba Mais Sobre Nossa História
@@ -125,7 +126,7 @@ const About = () => {
                   </p>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </div>
       </section>
