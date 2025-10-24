@@ -18,11 +18,11 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">IPI Manaus</h3>
             <p className="text-primary-foreground/90 mb-4">
-              Fundada em 1983, estamos há mais de 42 anos servindo a comunidade
+              Fundada em 1983, estamos há mais de 40 anos servindo a comunidade
               de Manaus com amor e dedicação.
             </p>
             <div className="flex space-x-4">
-              <a
+              {/* <a
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -30,7 +30,7 @@ const Footer = () => {
                 aria-label="Facebook"
               >
                 <Facebook size={24} />
-              </a>
+              </a> */}
               <a
                 href="https://instagram.com"
                 target="_blank"
@@ -79,16 +79,16 @@ const Footer = () => {
                   Rua Pires do Rio, 348 - Aleixo, Manaus - AM
                 </span>
               </li>
-              <li className="flex items-center space-x-2">
+              {/* <li className="flex items-center space-x-2">
                 <Phone size={20} className="flex-shrink-0" />
                 <span className="text-primary-foreground/90">
                   (92) 3000-0000
                 </span>
-              </li>
+              </li> */}
               <li className="flex items-center space-x-2">
                 <Mail size={20} className="flex-shrink-0" />
                 <span className="text-primary-foreground/90">
-                  contato@ipimanaus.org.br
+                  segundaipimidia@gmail.com
                 </span>
               </li>
             </ul>
@@ -97,7 +97,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/80">
-            © {new Date().getFullYear()} Igreja Presbiteriana Independente de
+            © {new Date().getFullYear()} 2º Igreja Presbiteriana Independente de
             Manaus. Todos os direitos reservados.
           </p>
         </div>

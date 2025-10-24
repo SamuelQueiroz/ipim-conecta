@@ -13,7 +13,7 @@ const HeroSection = () => {
     {
       image: churchExterior,
       title: "Bem-vindo à 2ª Igreja Presbiteriana Independente",
-      subtitle: "Uma igreja segundo o coração de Deus, desde 1983",
+      subtitle: "Uma igreja segundo o coração de Deus",
     },
     {
       image: communityGathering,
@@ -53,7 +53,7 @@ const HeroSection = () => {
             alt={slide.title}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-primary/70 to-primary/50" />
+          <div className="absolute inset-0 from-primary/70 to-primary/50" />
         </div>
       ))}
 
@@ -66,7 +66,7 @@ const HeroSection = () => {
           <p className="text-xl md:text-2xl mb-8 animate-fade-in">
             {slides[currentSlide].subtitle}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
+          {/* <div className="flex flex-col sm:flex-row gap-4">
             <Button
               asChild
               size="lg"
@@ -83,7 +83,7 @@ const HeroSection = () => {
             >
               <Link to="/sobre">Conheça Nossa História</Link>
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
 

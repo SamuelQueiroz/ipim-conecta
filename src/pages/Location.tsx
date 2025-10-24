@@ -5,9 +5,10 @@ import { Button } from "@/components/ui/button";
 import { MapPin, Navigation, Phone, Clock } from "lucide-react";
 
 const Location = () => {
-  const address = "Rua Pires do Rio, 348 - Aleixo, Manaus - Amazonas";
+  const address = "R. Pires do Rio, 348 - Aleixo, Manaus - AM, 69060-830";
+  const mapAddress =  "R. Pires do Rio, 550 - Aleixo, Manaus - AM, 69060-830";
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-    address
+    mapAddress
   )}`;
 
   return (
@@ -67,24 +68,23 @@ const Location = () => {
                     <div className="flex items-start gap-3">
                       <Clock className="flex-shrink-0 mt-1" size={20} />
                       <div>
-                        <h3 className="font-semibold mb-2">Horários Principais:</h3>
+                        <h3 className="font-semibold mb-2">Horários:</h3>
                         <ul className="text-muted-foreground space-y-1">
                           <li>• Domingo: 9h e 19h</li>
                           <li>• Terça: 16h</li>
-                          <li>• Quarta: 19h (Grupos)</li>
                           <li>• Sexta: 19h</li>
                           <li>• Sábado: 16h</li>
                         </ul>
                       </div>
                     </div>
 
-                    <div className="flex items-start gap-3">
+                    {/* <div className="flex items-start gap-3">
                       <Phone className="flex-shrink-0 mt-1" size={20} />
                       <div>
                         <h3 className="font-semibold mb-1">Telefone:</h3>
                         <p className="text-muted-foreground">(92) 3000-0000</p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </CardContent>
               </Card>
@@ -94,7 +94,7 @@ const Location = () => {
                 <CardContent className="p-0 h-full min-h-[400px]">
                   <iframe
                     src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodeURIComponent(
-                      address
+                      mapAddress
                     )}`}
                     width="100%"
                     height="100%"
@@ -102,7 +102,7 @@ const Location = () => {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Localização da Igreja Presbiteriana Independente de Manaus"
+                    title="Localização da Segunda Igreja Presbiteriana Independente de Manaus"
                   />
                 </CardContent>
               </Card>
@@ -114,33 +114,14 @@ const Location = () => {
                 <h2 className="text-2xl font-bold mb-4">Como Chegar</h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    Estamos localizados no bairro Aleixo, uma região de fácil acesso em
-                    Manaus. A igreja fica na Rua Pires do Rio, número 348.
+                    Estamos localizados no bairro Aleixo, a alguns minutos da Av. André Araújo.
                   </p>
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">
                       Pontos de Referência:
                     </h3>
                     <p className="italic">
-                      [Adicione aqui pontos de referência próximos para facilitar a
-                      localização]
-                    </p>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">
-                      Transporte Público:
-                    </h3>
-                    <p className="italic">
-                      [Adicione informações sobre linhas de ônibus que passam próximo à
-                      igreja]
-                    </p>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">
-                      Estacionamento:
-                    </h3>
-                    <p className="italic">
-                      [Adicione informações sobre estacionamento disponível]
+                      Em frente ao Clube do Assincra
                     </p>
                   </div>
                 </div>
