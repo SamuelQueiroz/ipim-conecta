@@ -16,7 +16,7 @@ const About = () => {
             Nossa História
           </h1>
           <p className="text-xl max-w-3xl">
-            Mais de 42 anos servindo a Deus e a comunidade de Manaus com amor e dedicação
+            Mais de 40 anos servindo a Deus e a comunidade de Manaus com amor e dedicação
           </p>
         </div>
       </section>
@@ -34,12 +34,13 @@ const About = () => {
                   <div>
                     <h2 className="text-3xl font-bold mb-4">Fundação</h2>
                     <p className="text-lg text-muted-foreground leading-relaxed">
+                      A 2ª Igreja Presbiteriana Independente de Manaus é fruto do dedicado trabalho da Igreja Presbiteriana Independente de Manaus,
+                      sendo organizada em {" "}
                       A Igreja Presbiteriana Independente de Manaus foi fundada em{" "}
                       <span className="font-semibold text-foreground">
-                        30 de janeiro de 1983
+                        29 de janeiro de 1983
                       </span>
-                      , há mais de 42 anos. Nosso primeiro pastor foi o reverendo Batalha,
-                      que com dedicação e fé lançou as bases desta comunidade de fé.
+                      . Ao longo de sua trajetória, a igreja tem se dedicado à propagação do Evangelho do Senhor Jesus Cristo
                     </p>
                   </div>
                 </div>

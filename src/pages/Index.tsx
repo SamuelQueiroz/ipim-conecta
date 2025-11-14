@@ -64,11 +64,11 @@ const Index = () => {
       <section className="py-16 bg-gradient-subtle">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Participe dos Nossos Cultos
-            </h2>
+            <h3 className="text-3xl md:text-4xl font-bold mb-4">
+              2ª Igreja Presbiteriana Independente de Manaus
+            </h3>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Venha fazer parte de nossa igreja!
+              Uma igreja segundo o coração de Deus
             </p>
           </div>
 

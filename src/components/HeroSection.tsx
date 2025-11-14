@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "./ui/button";
 import { Link } from "react-router-dom";
 import churchExterior from "@/assets/igreja1.jpeg";
-import communityGathering from "@/assets/igreja2.jpg";
+import communityGathering from "@/assets/igreja6.jpg";
 import worshipService from "@/assets/igreja5.jpg";
 
 const HeroSection = () => {
@@ -12,18 +12,18 @@ const HeroSection = () => {
   const slides = [
     {
       image: churchExterior,
-      title: "Bem-vindo à 2ª Igreja Presbiteriana Independente",
-      subtitle: "Uma igreja segundo o coração de Deus",
+      // title: "Bem-vindo à 2ª Igreja Presbiteriana Independente",
+      // subtitle: "Uma igreja segundo o coração de Deus",
     },
     {
       image: communityGathering,
-      title: "Faça Parte de nossa Igreja",
-      subtitle: "Venha crescer na fé conosco",
+      // title: "Faça Parte de nossa Igreja",
+      // subtitle: "Venha crescer na fé conosco",
     },
     {
       image: worshipService,
-      title: "Faça-nos uma visita",
-      subtitle: "Visite um de nossos cultos - Você é sempre bem-vindo!",
+      // title: "Faça-nos uma visita",
+      // subtitle: "Visite um de nossos cultos - Você é sempre bem-vindo!",
     },
   ];
 
@@ -50,7 +50,7 @@ const HeroSection = () => {
         >
           <img
             src={slide.image}
-            alt={slide.title}
+            // alt={slide.title}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 from-primary/70 to-primary/50" />
@@ -61,10 +61,10 @@ const HeroSection = () => {
       <div className="relative h-full container mx-auto px-4 flex items-center">
         <div className="max-w-3xl text-primary-foreground">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">
-            {slides[currentSlide].title}
+            {/* {slides[currentSlide].title} */}
           </h1>
           <p className="text-xl md:text-2xl mb-8 animate-fade-in">
-            {slides[currentSlide].subtitle}
+            {/* {slides[currentSlide].subtitle} */}
           </p>
           {/* <div className="flex flex-col sm:flex-row gap-4">
             <Button
